@@ -71,11 +71,6 @@ definejs('GAActiveUsersWidget', function create (){
                 }
               }
 
-              handleClick = (activeAttr) => {
-                this.setState({activeAttr})
-                this.loadAnalytics(activeAttr)
-              }
-
               // Google account authorization
               init = () => {
                 const doAuth = () => {
