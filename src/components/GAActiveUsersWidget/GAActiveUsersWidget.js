@@ -22,10 +22,10 @@ import '../../scss/GAActiveUsersWidget/GAActiveUsersWidget.scss';
 })(window, document, "script")
 
 // Google ClientID
-const CLIENT_ID = "<client-id>"
+const CLIENT_ID = "[client-id]"
 
 // Google View ID
-const ids = "ga:<view-id>"
+const ids = "ga:[view-id]"
 
 // Options for a GoogleCharts
 const options = {
